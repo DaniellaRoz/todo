@@ -2,14 +2,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(200px 100%);
+    height: 100%;
+    margin: 2% 10% 0 10%;
 }
 
 #left {
     grid-column: 1 / 2;
     background-color: coral;
+    margin-right: 5%;
+
+    display: flex;
+    justify-content: center;
 }
 
 #right {
     grid-column: 2 / 3;
     background-color: crimson;
+    margin-left: 5%;
 }
